@@ -7,9 +7,6 @@ import java.net.HttpURLConnection
 import java.net.MalformedURLException
 import java.net.URL
 
-/**
- * Created by shiozaki on 2017/02/06.
- */
 class AsyncHttp(var name: String, var value: Double) :
     AsyncTask<String?, Int?, Boolean>() {
     var urlConnection: HttpURLConnection? = null
